@@ -1,0 +1,43 @@
+{
+  "name": "te2d",
+  "version": "0.7.0",
+  "description": "HTML5/Node.js application(ES6)",
+  "private": false,
+  "scripts": {
+    "start": "node ./bin/www --use_strict",
+    "test": "grunt test",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "cookie-parser": "1.4.3",
+    "csurf": "1.9.0",
+    "ejs": "2.4.2",
+    "es6-shim": "0.35.1",
+    "express": "4.14.0",
+    "express-ejs-layouts": "2.1.0",
+    "jsonwebtoken": "7.0.1",
+    "less-middleware": "2.1.0",
+    "morgan": "1.8.1",
+    "serve-favicon": "2.3.0",
+    "validator": "5.4.0"
+  },
+  "devDependencies": {
+    "grunt": "1.0.1",
+    "grunt-contrib-concat": "1.0.1",
+    "grunt-karma": "2.0.0",
+    "karma": "1.6.0",
+    "jasmine": "2.5.2",
+    "jasmine-core": "2.5.2",
+    "karma-chrome-launcher": "2.0.0",
+    "karma-jasmine": "1.1.0",
+    "karma-coverage": "1.1.1",
+    "eslint": "4.8.0",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-config-airbnb": "16.0.0",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-react": "7.4.0"
+  },
+  "author": "pixelTraits",
+  "license": "MIT"
+}
